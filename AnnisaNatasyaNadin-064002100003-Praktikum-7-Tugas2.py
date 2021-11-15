@@ -5,7 +5,7 @@ def bil_ordinal(num):
     suffix = a % 10 != 1 and ordinal_dict.get(mod) or "th"
     print(f"{num}, '{suffix}'")
     
-print("Ketik -1 untuk menghentikan program")
+print("Enter -1 to stop the program.")
 
 loop = True
 while loop == True:
