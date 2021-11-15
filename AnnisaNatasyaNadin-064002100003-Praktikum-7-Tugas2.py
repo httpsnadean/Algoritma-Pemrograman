@@ -9,7 +9,7 @@ print("Enter -1 to stop the program.")
 
 loop = True
 while loop == True:
-    num = int(input("Masukan Angka : "))
+    num = int(input("Enter the number: "))
     if num == -1:
         loop = False
         break
