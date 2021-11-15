@@ -1,8 +1,8 @@
 print("Annisa Natasya Nadin\n064002100003\nProgram Bilangan Ordinal")
 def bil_ordinal(num):
     ordinal_dict = {1: "st", 2: "nd", 3: "rd"}
-    a, mod = divmod(num, 10)
-    suffix = a % 10 != 1 and ordinal_dict.get(mod) or "th"
+    z, mod = divmod(num, 10)
+    suffix = z % 10 != 1 and ordinal_dict.get(mod) or "th"
     print(f"{num}, '{suffix}'")
     
 print("Enter -1 to stop the program.")
